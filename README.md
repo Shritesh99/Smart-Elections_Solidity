@@ -14,13 +14,8 @@
 
 ### This Repository consist of etherum side smart contract code for Smart Elections.
 
-Contract Election deployed at 0x07913931574f9291fB3a469a073b4BC3Ae3bAA46
-
 <p align="center">
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-  <img src="https://github.com/Shritesh99/Smart-Elections_Solidity/blob/master/imgs/Canvas%203.jpg" />
+  <img src="https://github.com/Shritesh99/Smart-Elections_Solidity/blob/master/imgs/Canvas%204.jpg" />
 </p>
 
 ## Workflow:-
@@ -45,8 +40,6 @@ getSuperChairperson()
 ```
 0xbc848c44a72D878aA935CccFe3e307c4e2DB0146 # Address of Super Chair Person
 ```
-
-
 
 #### For Changing Super Chaiperson
 
@@ -96,8 +89,6 @@ getNumOfParties() # Called by Super Chair Person Only
 uint: 10 # Number of parties
 ```
 
-   
-
 #### For Geting Party Votes By Campaign
 
 ```
@@ -109,8 +100,6 @@ getPartyVotesByCampaign(uint partyID, address Campaign) # Called by Super Chair 
 ```
 uint: 100 # Votes
 ```
-
-
 
 #### For Geting Party All Votes
 
@@ -199,10 +188,3 @@ address: scmsdknckdnkcn  # Campaign addresses
 ### 2. On Election Day
 
 ### 3. Post Election
-
-  
-=======
->>>>>>> Stashed changes
-  <img src="https://github.com/Shritesh99/Smart-Elections_Solidity/blob/master/imgs/Canvas%204.jpg" />
-</p>  
->>>>>>> master
