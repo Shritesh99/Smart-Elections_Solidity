@@ -105,7 +105,7 @@ contract Elections{
                 for (uint i = j; i<partyIDs.length-1; i++){
                     partyIDs[i] = partyIDs[i+1];
                 }
-                delete partyIDs[chairpersons.length-1];
+                delete partyIDs[partyIDs.length-1];
                 partyIDs.length--;
                 break;
             }
@@ -117,12 +117,12 @@ contract Elections{
         return partyIDs.length;
     }
 
-    function getPartyVotesByCampaign(uint id,address campaign)public restricted checkParty(id)returns(uint){
-        ElectionCampaign campaign = ElectionCampaign(campaign);
+    function getPartyVotesByCampaign(uint id,address campaignAddr)public view restricted checkParty(id)returns(uint){
+        ElectionCampaign campaign = ElectionCampaign(campaignAddr);
         return (campaign.getPartyVotes(id));
     }
 
-    function getPartyVotes(uint id)public restricted checkParty(id) returns(uint){
+    function getPartyVotes(uint id)public restricted view checkParty(id) returns(uint){
         uint votes;
         for(uint i = 0; i<campaigns.length; i++){
             votes += getPartyVotesByCampaign(id, campaigns[i]);
@@ -130,8 +130,8 @@ contract Elections{
         return votes;
     }
 
-    function getPartyCandidatesByCampaign(uint id,address campaign)public view restricted checkParty(id) returns(uint){
-        ElectionCampaign campaign = ElectionCampaign(campaign);
+    function getPartyCandidatesByCampaign(uint id,address campaignAddr)public view restricted checkParty(id) returns(uint){
+        ElectionCampaign campaign = ElectionCampaign(campaignAddr);
         return (campaign.getPartyCandidate(id));
     }
 
