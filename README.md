@@ -1,8 +1,6 @@
-# Smart Elections.
+# Smart Elections
 
-### Smart Elections Based on Decentralised Ethereum Blockchain Network.
-
-### An attempt to improve India's current election system using Ethereum Blockchain Network.
+### Smart Elections Based on Decentralised Ethereum Blockchain Network. An attempt to improve India's current election system using Ethereum Blockchain Network.
 
 ### Server side Repository [here](https://github.com/siddharthshah3030/Smart-Elections-Server)
 
