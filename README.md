@@ -13,5 +13,5 @@
 Contract Election deployed at 0x07913931574f9291fB3a469a073b4BC3Ae3bAA46
 
 <p align="center">
-  <img src="https://github.com/Shritesh99/Smart-Elections_Solidity/blob/master/imgs/Canvas%203.jpg" />
+  <img src="https://github.com/Shritesh99/Smart-Elections_Solidity/blob/master/imgs/Canvas%204.jpg" />
 </p>  
