@@ -20,7 +20,7 @@
 #### Election Commision of India's Head or Admin creates a smart contact.
 
 ```
-Elections contract deployed at 0x625A6E3a709737068DBDeF29F4AF29579a66A490
+Elections contract deployed at 0x2BCac02bAAEC39522ad7eC2fD1921854cE194134
 Super Chair Person - 0xbc848c44a72D878aA935CccFe3e307c4e2DB0146
 ```
 
