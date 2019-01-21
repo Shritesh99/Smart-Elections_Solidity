@@ -182,4 +182,8 @@ address: scmsdknckdnkcn  # Campaign addresses
 
 ### 2. On Election Day
 
+Comming soon...
+
 ### 3. Post Election
+
+Comming soon...
