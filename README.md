@@ -1,189 +1,78 @@
 # Smart Elections
+#### Project by Team Pro at I_HACK Hackathon E-Summit'19 IIT Bombay
+### This repository **decentralized-Dapp-Server** is main server for Smart Contract, API, Database, UI-Result
 
-### Smart Elections Based on Decentralised Ethereum Blockchain Network. An attempt to improve India's current election system using Ethereum Blockchain Network.
+Smart Elections is a voting system based on Decentralised Ethereum Blockchain Network. An attempt to improve India's current election system using Ethereum Blockchain Network.
 
-### Server side Repository [here](https://github.com/siddharthshah3030/Smart-Elections-Server)
+  - NO more Biasing in votes
+  - The authenticity to every voter and candidate via Smart Transaction
+  - Votes are decentralized and distributed across a peer-to-peer network for security
 
-### Voting Machine Repository [here](https://github.com/utkarshchandrakar/smart-elections)
+## Problem statement:
+> **India's EVMs are Vulnerable to Fraud**
+> A research [article](https://indiaevm.org/qa.html) have claimed many ways to temper vote.
 
-### This Repository consist of etherum side smart contract code for Smart Elections.
+> **The question arises - why we even do voting in India?**
+> Some temper proof solution needs to be made for secure and fair Elections and Voting,
+> So that user is sure their vote is not being tempered,
+> We came up with this great solution  
 
-<p align="center">
-  <img src="https://github.com/Shritesh99/Smart-Elections_Solidity/blob/master/imgs/Canvas%205.jpg" />
-  <img src="https://github.com/Shritesh99/Smart-Elections_Solidity/blob/master/imgs/Canvas%204.jpg" />
-</p>
 
-## Workflow:-
+Our project uses Blockchain and Smart Etherum contracts to make sure each and every vote is being stored peer to peer in a decentralized network with Hashing so that every vote is secured and elections are fair
 
-### 1. Pre Elections
+## Simple Steps :
+ 1)  **Verify User** - Use some Biometric user verification (currently not implemeneted)
+ 2)  **Take Vote** - Take vote via IOT devce based on rasberry Pi 3 
+ 3)  **Make Smart Contract** - Store the vote via Smart-Contract in Etherum network 
+ 4)  **Results** - Count the total votes in network 
 
-#### Election Commision of India's Head or Admin creates a smart contact.
 
-```
-Elections contract deployed at 0x2BCac02bAAEC39522ad7eC2fD1921854cE194134
-Super Chair Person - 0xbc848c44a72D878aA935CccFe3e307c4e2DB0146
-```
+## Complete project :-
+Being a large and team project there are multiple repositories for individual stack and field
 
-#### For Getting Super Chaiperson
+ - #### [decentralized-Dapp-Server](https://github.com/siddharthshah3030/decentralized-Dapp-Server)- Main server for Smart Contract, API, Database, UI-Result  
+ 
+- #### [Smart-Elections_Solidity](https://github.com/Shritesh99/Smart-Elections_Solidity)(this) - Consists of etherum side smart contract code
 
-```
-getSuperChairperson()
-```
+- #### [Smart_elections_rasp](https://github.com/utkarshchandrakar/Smart_elections_rasp) - Voting machine based on Raspberry Pi 3 for taking votes from voters
 
-##### Returns:
+ -  #### [Smart-Elections-Server](https://github.com/siddharthshah3030/Smart-Elections-Server) - Old server (Smart Contract, API, Database, UI-Result)
 
-```
-0xbc848c44a72D878aA935CccFe3e307c4e2DB0146 # Address of Super Chair Person
-```
+![Overview](https://github.com/Shritesh99/Smart-Elections_Solidity/blob/master/imgs/Canvas%205.jpg)
+![Overview of voting](https://github.com/Shritesh99/Smart-Elections_Solidity/blob/master/imgs/Canvas%204.jpg)
 
-#### For Changing Super Chaiperson
+## Features
+ - Registration - of voters and candidates with respective campaigns
+ - Verification and Voting - of candidates on election
+ - Results - check out major and individual campaigns statistics of votes
 
-```
-setSuperChairperson(address superChairPersonNew) # Called by Super Chair Person Only
-```
+## Tech
 
-#### For Adding Party
+Dapp server uses some projects to work properly:
+* [Mongoose] - Object modelling and handling
+* [Faker] - Generating dummy data
+* [Web3] - Interact with remote ethereum node 
+* [EtherJs] -  Ethereum wallet implementation and utilities
 
-```
-addParty(uint partyID) # Called by Super Chair Person Only
-```
+### Deleloper Documentation
 
-#### For Updating Party Id
+Check out Developer Documentation [here](https://github.com/Shritesh99/Smart-Elections_Solidity/blob/master/Developer%20Doc.md)
 
-```
-updateParty(uint partyID, uint partyIDnew) # Called by Super Chair Person Only
-```
+### Contribute
 
-#### For Getting All Parties
+Want to contribute? Great!
+just make an issue and we'll respond
+or better just make a PR
 
-```
-getParties() # Called by Super Chair Person Only
-```
+# Contributors
+- [Siddharth](https://github.com/siddharthshah3030) 
+- [Shritesh](https://github.com/Shritesh99)
+- [Utkarsh](https://github.com/utkarshchandrakar)
+- [Nagendra](https://github.com/njha1999)
 
-##### Returns:
 
-```
-uint[]: 100,200,300 # Party ids
-```
+License
+----
 
-#### For Adding Party
+MIT
 
-```
-addParty(uint partyID) # Called by Super Chair Person Only
-```
-
-#### For Number of parties
-
-```
-getNumOfParties() # Called by Super Chair Person Only
-```
-
-##### Returns:
-
-```
-uint: 10 # Number of parties
-```
-
-#### For Geting Party Votes By Campaign
-
-```
-getPartyVotesByCampaign(uint partyID, address Campaign) # Called by Super Chair Person Only
-```
-
-##### Returns:
-
-```
-uint: 100 # Votes
-```
-
-#### For Geting Party All Votes
-
-```
-getPartyVotes(uint partyID) # Called by Super Chair Person Only
-```
-
-##### Returns:
-
-```
-uint: 1000 # Votes
-```
-
-#### For Geting Party's Candidate By Campaign
-
-```
-getPartyCandidatesByCampaign(uint partyID, address campaing) # Called by Super Chair Person Only
-```
-
-##### Returns:
-
-```
-uint: 1000004 # Candidate ID
-```
-
-#### For Geting Number of Party Candidates
-
-```
-getPartyCandidatesCount(uint partyID) # Called by Super Chair Person Only
-```
-
-##### Returns:
-
-```
-uint: 8 # Party candidates
-```
-
-#### For Get Party's All Candidates
-
-```
-getPartyCandidates(uint partyID, address campaing) # Called by Super Chair Person Only
-```
-
-##### Returns:
-
-```
-uint[]: 1000004,1000005 # Candidate IDs
-```
-
-#### For All Chairpersons
-
-```
-getChairpersons() # Called by Super Chair Person Only
-```
-
-##### Returns:
-
-```
-address[]: scdcmskdmc,sdsjncjd # Chairperson's addresses
-```
-
-#### For Getting all Campaigns
-
-```
-getElectionCampaigns() # Called by Super Chair Person Only
-```
-
-##### Returns:
-
-```
-address[]: sdsfcsdfd,sadsaasd  # Campaing addresses
-```
-
-#### For Creating Election Campaigns
-
-```
-crateElectionCampaign(address campaign) # Called by Super Chair Person Only
-```
-
-##### Returns:
-
-```
-address: scmsdknckdnkcn  # Campaign addresses
-```
-
-### 2. On Election Day
-
-Comming soon...
-
-### 3. Post Election
-
-Comming soon...
