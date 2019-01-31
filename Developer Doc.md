@@ -10,9 +10,9 @@ Super Chair Person - 0xbc848c44a72D878aA935CccFe3e307c4e2DB0146
 
 ### Smart Elections works on three steps
 
-- Pre Election day
-- On Election day
-- Post Election
+- [Pre Election day](https://github.com/Shritesh99/Smart-Elections_Solidity/blob/master/Developer%20Doc.md#1-pre-elections)
+- [On Election day](https://github.com/Shritesh99/Smart-Elections_Solidity/blob/master/Developer%20Doc.md#2-on-election-day)
+- [Post Election](https://github.com/Shritesh99/Smart-Elections_Solidity/blob/master/Developer%20Doc.md#3-post-election)
 
 ### 1. Pre Elections
 
