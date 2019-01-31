@@ -8,6 +8,8 @@ Elections contract deployed at 0x2BCac02bAAEC39522ad7eC2fD1921854cE194134
 Super Chair Person - 0xbc848c44a72D878aA935CccFe3e307c4e2DB0146
 ```
 
+Check out the Solidity contract [here](contracts/Elections.sol)
+
 ### Smart Elections works on three steps
 
 - [Pre Election day](https://github.com/Shritesh99/Smart-Elections_Solidity/blob/master/Developer%20Doc.md#1-pre-elections)
