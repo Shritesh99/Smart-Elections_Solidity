@@ -7,6 +7,11 @@ Smart Elections is a voting system based on Decentralised Ethereum Blockchain Ne
   - NO more Biasing in votes
   - The authenticity to every voter and candidate via Smart Transaction
   - Votes are decentralized and distributed across a peer-to-peer network for security
+  
+<h1 align="center">
+  <br>
+  <img src="https://github.com/Shritesh99/Smart-Elections_Solidity/blob/master/imgs/Canvas%205.jpg" />
+</h1>  
 
 ## Problem statement:
 > **India's EVMs are Vulnerable to Fraud**
@@ -37,9 +42,11 @@ Being a large and team project there are multiple repositories for individual st
 - #### [Smart_elections_rasp](https://github.com/utkarshchandrakar/Smart_elections_rasp) - Voting machine based on Raspberry Pi 3 for taking votes from voters
 
  -  #### [Smart-Elections-Server](https://github.com/siddharthshah3030/Smart-Elections-Server) - Old server (Smart Contract, API, Database, UI-Result)
-
-![Overview](https://github.com/Shritesh99/Smart-Elections_Solidity/blob/master/imgs/Canvas%205.jpg)
-![Overview of voting](https://github.com/Shritesh99/Smart-Elections_Solidity/blob/master/imgs/Canvas%204.jpg)
+ 
+<h1 align="center">
+  <br>
+  <img src="https://github.com/Shritesh99/Smart-Elections_Solidity/blob/master/imgs/Canvas%204.jpg" />
+</h1>
 
 ## Features
  - Registration - of voters and candidates with respective campaigns
@@ -61,7 +68,7 @@ Check out Developer Documentation [here](https://github.com/Shritesh99/Smart-Ele
 ### Contribute
 
 Want to contribute? Great!
-just make an issue and we'll respond
+Just make an issue and we'll respond
 or better just make a PR
 
 # Contributors
@@ -69,7 +76,6 @@ or better just make a PR
 - [Shritesh](https://github.com/Shritesh99)
 - [Utkarsh](https://github.com/utkarshchandrakar)
 - [Nagendra](https://github.com/njha1999)
-
 
 License
 ----
