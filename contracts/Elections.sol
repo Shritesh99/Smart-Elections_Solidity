@@ -1,5 +1,4 @@
 pragma solidity >=0.4.22 <0.6.0;
-// Solidity Version 0.4.22 <0.6.0
 
 //   0xbc848c44a72D878aA935CccFe3e307c4e2DB0146 head
 //   0x3184b6541c82fAa56B9d2360E2953d89f1Db8d82 Chairperson
